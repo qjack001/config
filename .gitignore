@@ -4,8 +4,3 @@
 !.gitconfig
 !.bash_profile
 !.bashrc
-
-!.config/micro/*.json
-!.congig/bat/config
-!.config/iterm2/com.googlecode.iterm2.plist
-!.config/starship.toml
