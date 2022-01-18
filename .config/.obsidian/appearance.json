@@ -1,0 +1,12 @@
+{
+  "baseFontSize": 22,
+  "theme": "moonstone",
+  "translucency": false,
+  "baseFontSizeAction": false,
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "rounded-images",
+    "headings",
+    "sliding-panes"
+  ]
+}

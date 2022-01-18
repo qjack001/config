@@ -1,0 +1,5 @@
+body.plugin-sliding-panes .workspace-split.mod-vertical>.workspace-leaf,
+body.plugin-sliding-panes-stacking .workspace>.mod-root>.workspace-leaf
+{
+	box-shadow: none !important;
+}

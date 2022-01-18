@@ -1,0 +1,77 @@
+{
+  "choices": [
+    {
+      "id": "c52d7d7b-8c99-432e-a3b0-dd183f25a903",
+      "name": "Open homepage",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Home.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": ""
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": true,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "preview"
+    }
+  ],
+  "macros": [
+    {
+      "name": "New note in new pane and instantly delete",
+      "id": "760b1850-90c1-4540-93fd-dcc0dd4f2a77",
+      "commands": [
+        {
+          "name": "Create note in new pane",
+          "type": "Obsidian",
+          "id": "e2a573b7-23a4-4cad-adae-2d48bf2138b7",
+          "commandId": "file-explorer:new-file-in-new-pane"
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "81517645-ce7a-4c7c-8d1c-612b6db683b8",
+          "time": 1000
+        },
+        {
+          "name": "Focus on pane to the right",
+          "type": "Obsidian",
+          "id": "25b881ca-0554-486c-bd0d-69f9e7452c3a",
+          "commandId": "editor:focus-right"
+        },
+        {
+          "name": "Focus on pane to the left",
+          "type": "Obsidian",
+          "id": "3f076b88-0194-4d79-822e-d07a6a2b7951",
+          "commandId": "editor:focus-left"
+        },
+        {
+          "name": "Delete current file",
+          "type": "Obsidian",
+          "id": "ab2a1389-c79c-4a78-8740-459ac5d4eee0",
+          "commandId": "app:delete-file"
+        }
+      ],
+      "runOnStartup": false
+    }
+  ]
+}
