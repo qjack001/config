@@ -6,6 +6,9 @@ Configuration of my environment.
 
 ## How to load the environment
 
+Everything, all at once! Good for new builds. Please do not do this in
+a home directory you are fond of.
+
 ### 1. Pull down dotfiles
 
 ```bash
@@ -46,4 +49,22 @@ sh nuke.sh install
 
 Perhaps you don't want everything. Here's how you can pull down the
 settings on a per-app basis.
+
+
+<details>
+  <summary>Micro</summary>
+  
+  Make sure it's installed:
+  
+  ```bash
+  brew install micro
+  ```
+  
+  then:
+  
+  ```bash
+  curl https://codeload.github.com/qjack001/config/tar.gz/main | tar -xz --strip=2 config-main/.config/micro
+  mv micro ~/.config/ -f
+  ```
+</details>
 
