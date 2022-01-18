@@ -2,7 +2,7 @@
 
 Configuration of my environment. Note: this is not intended to be a backup
 of my computer (I use [Arq](https://www.arqbackup.com) for that), nor my
-system preferences and apps. It is a reproducible development environment.
+system preferences and apps. It is a reproducible development environment only.
 
 ---
 
