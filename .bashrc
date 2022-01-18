@@ -16,12 +16,14 @@ alias config='micro ~/.bashrc && source ~/.bashrc'
 alias help='glow ~/.help.md'
 alias edit-help='micro ~/.help.md'
 alias wake='caffenate -u -t 86400'
+alias recent='cat ~/.bash_history | rg'
 
 ## Personal Aliases
 alias weather='curl v2.wttr.in/victoria+british+columbia'
 alias wttr='weather'
 alias wthr='weather'
 alias dev='cd ~/Documents/Github'
+alias notes='cd ~/Documents/Notes'
 
 
 
