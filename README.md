@@ -1,6 +1,8 @@
 # Config
 
-Configuration of my environment.
+Configuration of my environment. Note: this is not intended to be a backup
+of my computer (I use [Arq](https://www.arqbackup.com) for that), nor my
+system preferences and apps. It is a reproducible development environment.
 
 ---
 
@@ -27,8 +29,8 @@ brew bundle
 ```
 
 This will probably take a bit. Afterward, you will need to open the
-apps (iTerm2, Obsidian, Fig, and VS Code) to finish setting them up
-and point them to the right config file.
+apps (iTerm2, Obsidian, Fig, OpenInTerminal, & VS Code) to finish
+setting them up and point them to the right config files.
 
 To load any new changes to the shell as a result:
 
