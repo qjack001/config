@@ -42,3 +42,8 @@ sh nuke.sh install
 
 ---
 
+## Just load peices of the environment
+
+Perhaps you don't want everything. Here's how you can pull down the
+settings on a per-app basis.
+
