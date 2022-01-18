@@ -1,0 +1,13 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = Jack Guinane
+	email = jackguinane@gmail.com
+	signingkey = 2F8C1DBC16070254
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
