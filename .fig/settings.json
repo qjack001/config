@@ -3,6 +3,7 @@
   "autocomplete.theme": "dracula",
   "autocomplete.fontFamily": "SF Mono",
   "autocomplete.scrollWrapAround": true,
+  "pty.path": "/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jackguinane/.fig/bin",
   "telemetry.disabled": true,
   "userShell": "/bin/bash"
 }
