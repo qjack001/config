@@ -35,7 +35,7 @@ setting them up and point them to the right config files.
 To load any new changes to the shell as a result:
 
 ```bash
-source ~/.bash_profile
+source ~/.bash_profile && source ~/.bashrc
 ```
 
 And since [nuke](https://github.com/qjack001/nuke) is not availible through `brew`:
@@ -43,6 +43,7 @@ And since [nuke](https://github.com/qjack001/nuke) is not availible through `bre
 ```bash
 curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/qjack001/nuke/main/nuke.sh -o nuke.sh
 sh nuke.sh install
+nuke --help # proof it installed correctly
 ```
 
 ---
