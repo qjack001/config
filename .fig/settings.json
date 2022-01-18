@@ -1,0 +1,8 @@
+{
+  "autocomplete.disable": false,
+  "autocomplete.theme": "dracula",
+  "autocomplete.fontFamily": "SF Mono",
+  "autocomplete.scrollWrapAround": true,
+  "telemetry.disabled": true,
+  "userShell": "/bin/bash"
+}
