@@ -7,6 +7,8 @@
 export EDITOR=micro
 export VISUAL="$EDITOR"
 export BASH_SILENCE_DEPRECATION_WARNING=1
+export HOMEBREW_NO_AUTO_UPDATE=1
+export HOMEBREW_NO_INSTALL_CLEANUP=1
 
 if [ -r ~/.bashrc ]; then
     . ~/.bashrc

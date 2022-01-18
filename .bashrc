@@ -17,6 +17,7 @@ alias help='glow ~/.help.md'
 alias edit-help='micro ~/.help.md'
 alias wake='caffenate -u -t 86400'
 alias recent='cat ~/.bash_history | rg'
+alias housekeeping='brew update && brew upgrade && brew cleanup && brew autoremove'
 
 ## Personal Aliases
 alias weather='curl v2.wttr.in/victoria+british+columbia'
