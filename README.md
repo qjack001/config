@@ -41,7 +41,7 @@ source ~/.bash_profile && source ~/.bashrc
 And since [nuke](https://github.com/qjack001/nuke) is not availible through `brew`:
 
 ```bash
-curl -H 'Cache-Control: no-cache' https://raw.githubusercontent.com/qjack001/nuke/main/nuke.sh -o nuke.sh
+curl https://raw.githubusercontent.com/qjack001/nuke/main/nuke.sh -o nuke.sh
 sh nuke.sh install
 nuke --help # proof it installed correctly
 ```
@@ -141,6 +141,6 @@ settings on a per-app basis.
   
   ```bash
   curl https://codeload.github.com/qjack001/config/tar.gz/main | tar -xz --strip=2 config-main/.config/.obsidian
-  mv -i .obsidian ~/Documents/Notes/ # I'm assuming Obsidian has already made a notes folder here
+  cp -ir .obsidian ~/Documents/Notes/ # I'm assuming Obsidian has already made a notes folder here
   ```
 </details>
