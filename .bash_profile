@@ -15,6 +15,8 @@ if [ -r ~/.bashrc ]; then
     clear
 fi
 
+. "$HOME/.cargo/env"
+
 #### FIG ENV VARIABLES ####
 # Please make sure this block is at the end of this file.
 [ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
